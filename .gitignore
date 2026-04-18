@@ -1,0 +1,38 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Django
+db.sqlite3
+media/gallery/avatars/
+media/gallery/invoices/
+*.log
+
+# Environment / secrets
+.env
+dashboard_gramo_project/.env
+
+# Node / Frontend
+frontend/node_modules/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test artifacts
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.coverage
